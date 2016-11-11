@@ -3,17 +3,17 @@
 #include <ArduinoCloud.h>
 
 /////// Wifi Settings ///////
-//char ssid[] = "PLDTHOMEDSL58446";
-//char pass[] = "PLDTWIFI175338";
-char ssid[] = "Jonnan";
-char pass[] = "jonnan123";
+char ssid[] = "PLDTHOMEDSL58446";
+char pass[] = "PLDTWIFI175338";
+//char ssid[] = "Jonnan";
+//char pass[] = "jonnan123";
 
 
 // Arduino Cloud settings and credentials
-const char userName[]   = "ivin_lim";
+const char userName[]   = "rlromilla";
 const char thingName[] = "button";
-const char thingId[]   = "41a2e2f8-9d66-485a-b6c2-e7b1081467d5";
-const char thingPsw[]  = "132e5037-ba9e-4b7b-8299-f0da645e5da7";
+const char thingId[]   = "1f2951ab-3437-44b7-841a-1fed295fde6b";
+const char thingPsw[]  = "a241f061-7540-46a6-9e91-a9e4efabf2e2";
 
 
 WiFiSSLClient sslClient;
